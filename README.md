@@ -18,7 +18,7 @@
 
   0) 공통 역할
   - 각 Chapter별 필요한 데이터에 대한 수동 Labeling 정의  <br/>  
-  가. App Cagtegory를 세분화 분석을 위한 Category Labeling 진행
+  가. App Cagtegory를 세분화 분석을 위한 Category Labeling 진행 <br/>  
   나. 구매 이전 Pattern 인식을 위해, 구매 과정에서 "화장품" 관련 searching Excel 정의  
   <br/>
   
