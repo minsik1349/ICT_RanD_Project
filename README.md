@@ -5,7 +5,7 @@
 
 
 ### 연구 내용(목적)
-1. App 사용량과 미세먼지 포함 날씨와의 주요 상관관계 확인(2019년 App log data)
+1. [App 사용량과 미세먼지 포함 날씨와의 주요 상관관계 확인(2019년 App log data)](https://github.com/minsik1349/Major_Project/tree/main/AI%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8:%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8%E2%85%A1
   - 다양한 App category별로 미세먼지 정도와 미세먼지 변화량에 따른 영향도 확인
   - 이외의 날씨 정보와 날짜 정보(월, 휴일 여부 등)를 통해서 통계적 분석
   - 통계적으로 유의미 수준에서 미세먼지 정도에서 사용량이 증가(+, 양)과 감소(-, 음)을 파악 후 의미 분석
@@ -19,19 +19,18 @@
 
   0) 공통 역할
   - 각 Chapter별 필요한 데이터에 대한 수동 Labeling 정의
-    => App Cagtegory를 세분화 분석을 위한 Category Labeling 진행
-    => 구매 이전 Pattern 인식을 위해, 구매 과정에서 "화장품" 관련 searching Excel 정의
-
+  가. App Cagtegory를 세분화 분석을 위한 Category Labeling 진행 <br/>
+  나. 구매 이전 Pattern 인식을 위해, 구매 과정에서 "화장품" 관련 searching Excel 정의 <br/>
 
   1) App 사용량과 날씨 간의 상관관계 
   - 데이터 정제: 날씨 데이터 수집 및 App log 및 날씨 데이터 이상치 해결
   - App User의 간단한 EDA 진행: 정당성 확보(대표성)
   - 통계적 분석: 각 App Category별 미세먼지 영향력이 통게적으로 유의미지, 관계를 GLS 분석을 진행
-  
+  <br/>
   
   2) 구매 이전 사용자의 패턴 인식 
   - 데이터 정제: 각 상품별 구매 완료 상품 정제, 기준으로 2주 동안의 log 기록만 저장(데이터 부하 문제 해결)
-
+  <br/>
 
 #### 진행 방법
 - 격주 기간 동안 연구 교수님께 분석 결과 발표(PPT) 및 발전 방향 논의 
