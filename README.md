@@ -18,12 +18,12 @@
 
   [공통 역할] 
   - 각 Chapter별 필요한 데이터에 대한 수동 Labeling 정의  <br/>
-  가. App Cagtegory를 세분화 분석을 위한 Category Labeling 진행 <br/>
-  나. 구매 이전 Pattern 인식을 위해, 구매 과정에서 "화장품" 관련 searching Excel 정의  
+    - App Cagtegory를 세분화 분석을 위한 Category Labeling 진행 <br/>
+    - 구매 이전 Pattern 인식을 위해, 구매 과정에서 "화장품" 관련 searching Excel 정의  
   <br/>
   
-  [App 사용량과 날씨 간의 상관관계] 
-  - 데이터 정제: 날씨 데이터 수집 및 App log 및 날씨 데이터 이상치 해결  <br/>
+  [App 사용량과 날씨 간의 상관관계]
+  - 데이터 정제: 날씨 데이터 수집 및 App log 및 날씨 데이터 이상치 해결.<br/>
   - App User의 간단한 EDA 진행: 정당성 확보(대표성)  <br/>
   - 통계적 분석: 각 App Category별 미세먼지 영향력이 통게적으로 유의미지, 관계를 GLS 분석을 진행
   <br/>
